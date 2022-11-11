@@ -1,0 +1,618 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MegaPLayer</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body class="w-full min-h-screen">
+    <div class="drawer drawer-mobile">
+        <input type="checkbox" id="main-drawer" class="drawer-toggle peer">
+
+        <div class="drawer-content peer-checked:translate-x-10">
+            <div class="w-full p-3 bg-[#F2F2F2] rounded-xl min-h-[300px]">
+                <!-- nav -->
+                <div class="w-full flex items-center justify-between">
+                    <h2 class="text-lg font-bold text-[#280a40]">Home</h2>
+                    <label for="main-drawer" class="btn btn-ghost btn-sm">open</label>
+
+                    <input type="text" class="input input-sm bg-[#F2F2F2] text-black/90
+                        min-w-[180px] rounded-xl border border-gray-300/80 focus:outline-none" placeholder="Type here to search">
+                </div>
+
+                <!-- section-1 -->
+                <div class="grid lg:grid-cols-2 mt-6 gap-x-6 gap-y-11">
+                    <div>
+                        <div class="overflow-hidden flex flex-col gap-y-4 rounded-2xl group
+                        shadow-xl shadow-black/30 max-w-2xl p-3 py-4 relative
+                        mx-auto bg-gradient-to-br from-[#c987fe] to-[#9d34f1] min-h-[200px]">
+                            <img
+                                src="./images/woman_listening_to_music_bg-removed.png"
+                                alt="woman_listening_to_music"
+                                class="w-56 h-56 object-cover absolute bottom-0 -right-3 rotate-180 z-10
+                                group-hover:scale-110 transition-transform duration-300">
+
+                            <span
+                                class="w-44 h-44 glass bg-opacity-50 absolute bottom-0 translate-y-1/2
+                                right-11 inline-block rounded-full group-hover:scale-125
+                                group-hover:-translate-x-2 transition-transform duration-300">
+                            </span>
+
+                            <span
+                                class="w-44 h-44 bg-purple-700 absolute bottom-0 translate-y-1/2
+                                right-11 inline-block rounded-full group-hover:scale-105 transition-transform duration-300">
+                            </span>
+
+                            <span
+                                class="inline-block w-16 h-16 rounded-full shadow-xl
+                                absolute bottom-20 right-6 my-shadow">
+                            </span>
+
+                            <p class="text-[#F2F2F2] text-xs">MUSKINAJA</p>
+                            <p class="text-[#F2F2F2] text-2xl font-bold max-w-[200px]">
+                                Listen To Trending Songs All The Time
+                            </p>
+                            <p class="text-[#F2F2F2]/90 text-xs max-w-[230px] z-10">
+                                With Muskinaja you can get premium musics for free, any where and at any time
+                            </p>
+                            <button class="btn btn-sm bg-white text-[#9d34f1]
+                                        rounded-xl w-max text-xs capitalize border-none hover:bg-[#9827f5]
+                                        hover:text-[#F2F2F2]">Explore Now</button>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col">
+                        <h2 class="text-black/90 text-lg font-bold">Top Artists</h2>
+
+                        <div class="space-y-3 mt-4 grid grid-cols-2 max-h-[160px] overflow-y-auto custom-scrollbar">
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Mamank</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">1928 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Maimunah</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+
+                            <div class="flex items-center gap-x-2">
+                                <div class="avatar">
+                                    <div class="w-11 mask mask-squircle">
+                                        <img src="./images/woman_listening_to_music.jpg">
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <p class="text-black/80 text-sm font-bold">Paijo</p>
+                                    <p class="text-black/40 text-xs font-semibold mt-1">90310 Followers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <a href="#" class="inline-block !mt-6 link link-hover text-xs text-[#1A1840]/70 font-semibold w-max">See Mroe</a>
+                    </div>
+                </div>
+ 
+
+                <!-- section-2 -->
+                <div class="grid grid-cols-1 lg:grid-cols-2 mt-9 gap-x-6">
+                    <div>
+                        <div class="flex items-center justify-between">
+                            <h2 class="text-base font-bold text-[#280a40]">PLayList</h2>
+                            <a href="#" class="inline-block link link-hover text-xs text-[#1A1840]/70 font-semibold">See Mroe</a>
+                        </div>
+
+                        <div class="flex items-center gap-x-4 mt-4 overflow-x-auto custom-scrollbar pb-3">
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+
+                            <div class="avatar">
+                                <div class="w-20 mask mask-squircle">
+                                    <img src="./images/woman_listening_to_music.jpg">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="mt-10">
+                            <div class="flex items-center justify-between">
+                                <h2 class="text-base font-bold text-[#280a40]">Trending</h2>
+                                <a href="#" class="inline-block link link-hover text-xs text-[#1A1840]/70 font-semibold">See Mroe</a>
+                            </div>
+
+                            <div class="mt-4 space-y-5 max-h-56 overflow-y-auto custom-scrollbar pr-2.5">
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center gap-x-3">
+                                    <div class="avatar">
+                                        <div class="w-14 mask mask-squircle">
+                                            <img src="./images/woman_listening_to_music.jpg">
+                                        </div>
+                                    </div>
+
+                                    <div class="flex items-center justify-between w-full">
+                                        <div>
+                                            <p class="text-sm text-[#280a40] font-bold">Balonku Ada 5 Meter</p>
+                                            <p class="text-xs text-[#280a40]/60 textxs font-semibold mt-1">Mamank</p>
+                                        </div>
+
+                                        <div class="flex gap-x-5 items-center">
+                                            <span class="text-[#280a40]/80 font-bold text-sm">3:22</span>
+
+                                            <button
+                                                class="btn btn-sm btn-circle text-center border-none btn-outline
+                                                bg-gradient-to-br from-[#c987fe] to-[#9d34f1] shadow-lg shadow-black/20">
+                                                <div class="mask mask-triangle-4 w-3 h-3 bg-white"></div>
+                                            </button>
+
+                                            <button class="flex flex-col gap-y-1 btn btn-ghost btn-sm px-2">
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                                <div class="w-1 h-1 bg-gray-500/80 rounded-full"></div>
+                                            </buttton>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="grid place-items-center">
+                        <div class="card card-compact bg-[#1f0832] max-w-xs p-3 rounded-3xl">
+                            <figure class="shadow-xl rounded-3xl shadow-white/10"><img src="./images//woman_listening_to_music.jpg"></figure>
+
+                            <div class="card-body mt-3">
+                                <h2 class="card-title justify-center text-white/80 text-base">Balonku Ada 5 Meter</h2>
+                                <p class="text-center text-white/50 text-sm">Memank</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="drawer-side">
+            <label for="main-drawer" class="drawer-overlay"></label>
+
+            <!-- <ul class="menu bg-gradient-to-br from-[#1b082a] to-[#2f0e4b] w-52">
+                <li><a href="#">hello</a></li>
+                <li><a href="#">hello</a></li>
+                <li><a href="#">hello</a></li>
+            </ul> -->
+
+
+            <div class="flex overflow-hidden rounded-lg w-max">
+                <div class="flex md:flex-shrink-0 bg-base-300">
+                    <div class="flex flex-col w-56">
+                        <div class="flex flex-col flex-grow pt-5 overflow-y-auto">
+                            <!-- userName and image -->
+                            <div class="flex flex-shrink-0 p-4 px-4">
+                                <a href="#" class="flex-shrink-0 block w-full group">
+                                    <div class="flex items-center">
+                                        <div class="avatar">
+                                            <div class="w-12 mask mask-squircle">
+                                                <img src="./images/woman_listening_to_music.jpg" alt="">
+                                            </div>
+                                        </div>
+                                        <div class="ml-3">
+                                            <p class="text-base font-medium text-gray-300">Wicked Labs</p>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+
+                            <!-- <div class="flex flex-col items-center flex-shrink-0 px-4">
+                                <a href="./index.html" class="px-8 text-left focus:outline-none">
+                                    <h2 class="block p-2 text-xl font-medium tracking-tighter transition duration-500 ease-in-out transform cursor-pointer text-neutral-200 hover:text-neutral-200">wickedblocks</h2>
+                                </a>
+                                <button class="hidden rounded-lg focus:outline-none focus:shadow-outline">
+                                    <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
+                                        <path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM9 15a1 1 0 011-1h6a1 1 0 110 2h-6a1 1 0 01-1-1z" clip-rule="evenodd"></path>
+                                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                                    </svg>
+                                </button>
+                            </div> -->
+
+                            <!-- menu items -->
+                            <div class="flex flex-col flex-grow px-4 mt-5">
+                                <nav class="flex-1 space-y-1 bg-neutral-800">
+                                    <ul>
+                                        <li class="border-l-2 border-sky-500">
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-300 ease-in-out transform rounded-lg text-neutral-200 hover:bg-gray-700 focus:shadow-outline" white="" 70="" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"></path>
+                                                </svg>
+                                                <span class="ml-4"> Home</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-300 ease-in-out transform rounded-lg text-neutral-200 focus:shadow-outline hover:bg-gray-700" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                                                </svg>
+                                                <span class="ml-4">Top Artists</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-300 ease-in-out transform rounded-lg text-neutral-200 focus:shadow-outline hover:bg-gray-700" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"></path>
+                                                </svg>
+                                                <span class="ml-4">Trending</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-300 ease-in-out transform rounded-lg text-neutral-200 focus:shadow-outline hover:bg-gray-700" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 stroke-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"></path>
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                                                </svg>
+                                                <span class="ml-4">PLay List</span></a>
+                                        </li>
+                                    </ul>
+
+                                    <!-- <p class="px-4 pt-4 font-medium uppercase text-neutral-200">Shortcuts</p>
+                                    <ul>
+                                        <li>
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-500 ease-in-out transform border rounded-lg text-neutral-200 border-neutral-800 hover:border-neutral-800 focus:shadow-outline hover:bg-neutral-900" white="" 70="" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+                                                </svg>
+                                                <span class="ml-4"> Tasks</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-500 ease-in-out transform border rounded-lg text-neutral-200 border-neutral-800 hover:border-neutral-800 focus:shadow-outline hover:bg-neutral-900" white="" 70="" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                                                </svg>
+                                                <span class="ml-4"> Reports</span>
+                                            </a>
+                                        </li>
+
+                                        <li>
+                                            <a class="inline-flex items-center w-full px-4 py-2 mt-1 text-base transition duration-500 ease-in-out transform border rounded-lg text-neutral-200 border-neutral-800 hover:border-neutral-800 focus:shadow-outline hover:bg-neutral-900" white="" 70="" href="#">
+                                                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M11 3.055A9.001 9.001 0 1020.945 13H11V3.055z"></path>
+                                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.488 9H15V3.512A9.025 9.025 0 0120.488 9z"></path>
+                                                </svg>
+                                                <span class="ml-4"> Dashboard</span>
+                                            </a>
+                                        </li>
+                                    </ul> -->
+
+                                </nav>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
